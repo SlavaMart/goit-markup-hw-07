@@ -1003,17 +1003,17 @@ ul {
     margin-bottom: 20px;
 }
 
-.register-form-wrap {
+.register-form__wrap {
     position: relative;
     display: block;
     margin-bottom: 10px;
 }
 
-.register-form-wrap:last-child {
+.register-form__wrap:last-child {
     margin-bottom: 0;
 }
 
-.register-form-label {
+.register-form__label {
     display: block;
     text-align: left;
     margin-bottom: 4px;
@@ -1031,8 +1031,8 @@ ul {
 
 }
 
-.register-form-input,
-.register-form-message {
+.register-form__input,
+.register-form__message {
     width: 100%;
     padding: 12px;
     padding-left: 42px;
@@ -1045,17 +1045,17 @@ ul {
 
 }
 
-.register-form-input:hover,
-.register-form-input:focus,
-.register-form-message:hover,
-.register-form-message:focus {
+.register-form__input:hover,
+.register-form__input:focus,
+.register-form__message:hover,
+.register-form__message:focus {
     border: 1px solid #2196F3;
     border-radius: 4px;
 
 }
 
 
-.register-form-message {
+.register-form__message {
     width: 448px;
     height: 138px;
 
@@ -1064,7 +1064,7 @@ ul {
     resize: none;
 }
 
-.register-form-icon {
+.register-form__icon {
     position: absolute;
     bottom: 11px;
     left: 15px;
@@ -1075,12 +1075,12 @@ ul {
 }
 
 
-.register-form-input:focus-within+.register-form-icon,
-.register-form-input:hover+.register-form-icon {
+.register-form__input:focus-within+.register-form__icon,
+.register-form__input:hover+.register-form__icon {
     fill: var(--acceny-txt-cl);
 }
 
-.register-form-btn {
+.register-form__btn {
     display: block;
     align-items: center;
     justify-content: center;
@@ -1115,15 +1115,15 @@ ul {
 }
 
 
-.register-form-btn:hover,
-.register-form-btn:focus {
+.register-form__btn:hover,
+.register-form__btn:focus {
     background: var(--btn-bg-hover-cl);
 
 }
 
 /* Form registration*/
 
-.register-form-agreement {
+.register-form__agreement {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1132,7 +1132,7 @@ ul {
 }
 
 
-.register-checkbox:checked+.register-icon .register-icon-uncheck {
+.register-form__checkbox:checked+.register-icon .register-icon-uncheck {
     opacity: 0;
     background-color: #188CE8;
 
@@ -1156,14 +1156,14 @@ ul {
 
 }
 
-.register-checkbox:checked+.register-icon .register-icon-check {
+.register-form__checkbox:checked+.register-icon .register-icon-check {
     opacity: 1;
     background-color: #188CE8;
 
 }
 
 
-.register-form-agreement-text {
+.register-form__text {
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
@@ -1172,18 +1172,13 @@ ul {
     user-select: none;
 }
 
-.register-form-agreement-link {
+.register-form__link {
     color: var(--acceny-txt-cl);
     text-underline-position: under;
 
 }
 
-.regi {
-    background: #188CE8;
-}
 
-.regi-icon {
-    background-color: #188CE8;
-}
+
 
 /* reg-agreement*/
